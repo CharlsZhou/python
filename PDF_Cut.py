@@ -1,4 +1,5 @@
 # PDF文件截取某几页另存新文件
+
 from PyPDF2 import PdfFileWriter, PdfFileReader
 import os
 def pdf_split(pdf_in,pdf_out,start,end):
@@ -24,3 +25,8 @@ for pdfname in pdfList:  # 循环批量将各pdf文件中某几页截取后另�
     s, e = 0, 1  # 拆分的起始位置和结束位置
     pdf_split(pdf_in, pdf_out, s, e) # 拆分函数
 
+# PDF拆分成单页
+
+
+
+# PDF合并到一起
